@@ -1,0 +1,156 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .container-fluid {
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+
+    .logo {
+        width: 150px!important;
+    }
+    .grid-stack{
+        margin-bottom:20px;
+    }
+    .dashboard-nav{
+      height: 100%; /* 100% Full-height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0; /* Stay at the top */
+      right: 0;
+      background-color: #111; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+    .dashboard-nav .closebtn {
+      display:block;
+      color:white;
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    .registry .search-results .view-btn{
+        display:none;
+    }
+    .faqs .nav-pills .nav-link.active{
+        background-color:#651652;
+        border-radius:unset;
+        border:unset;
+        color:white !important;
+    }
+    .contact .contact-form{
+        margin-top:unset;
+    }
+    .page-wrapper-ex{
+        padding:50% 0;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .container-fluid {
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+    }
+
+    .logo {
+        width: 150px!important;
+    }
+    .grid-stack{
+        margin-bottom:30px;
+    }
+    .dashboard-nav{
+      height: 100%; /* 100% Full-height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0; /* Stay at the top */
+      right: 0;
+      background-color: #111; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+    .dashboard-nav .closebtn {
+      display:block;
+      color:white;
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    .registry .search-results .view-btn{
+        display:none;
+    }
+    .contact .contact-form{
+        margin-top:unset;
+    }
+    .page-wrapper-ex{
+        padding:50% 0;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .container-fluid {
+        padding-left: 40px!important;
+        padding-right: 40px!important;
+    }
+    .grid-stack{
+        margin-bottom:20px;
+    }
+    .dashboard-nav{
+      height: 100%; /* 100% Full-height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0; /* Stay at the top */
+      right: 0;
+      background-color: #111; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+    .dashboard-nav .closebtn {
+      display:block;
+      color:white;
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    .registry .search-results .view-btn{
+        display:none;
+    }
+    .contact .contact-form{
+        margin-top:unset;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .container-fluid {
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+    .contact .contact-form{
+        margin-top:unset;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container-fluid {
+        padding-left: 80px!important;
+        padding-right: 80px!important;
+    }
+    
+    .logo {
+        width: 200px!important;
+    }
+}
